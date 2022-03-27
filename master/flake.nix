@@ -11,6 +11,7 @@
   inputs.src-httpkit-master.ref   = "refs/heads/master";
   inputs.src-httpkit-master.owner = "tulayang";
   inputs.src-httpkit-master.repo  = "httpkit";
+  inputs.src-httpkit-master.dir   = "";
   inputs.src-httpkit-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
